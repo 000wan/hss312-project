@@ -1,0 +1,76 @@
+/* MemorialPool.css */
+.memorial-pool {
+  width: 400px;
+  height: 400px;
+  margin: 10px 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-square {
+  width: 325px;
+  height: 325px;
+  background-color: #444;
+  position: relative;
+  
+  box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.5) inset;
+}
+
+.inner-square {
+  width: 100px;
+  height: 100px;
+  background-color: #555;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.water-light {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.water {
+  width: 100%;
+  height: 100%;
+  background-color: #0088ff;
+  animation: water-flow 2s infinite;
+}
+
+.light {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+  animation: light-flicker 2s infinite;
+}
+
+@keyframes water-flow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes light-flicker {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

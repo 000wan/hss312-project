@@ -5,7 +5,7 @@ function MainPage() {
   return (
     <div className="main-page">
       <div className="content">
-        <h1>9/11 Memorial</h1>
+        <h1>Never Forget, 9/11</h1>
         <div className="memorial">
           <MemorialPool />
           <MemorialPool />

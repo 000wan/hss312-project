@@ -3,8 +3,41 @@
   height: 100vh;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  background: url('/images/dark_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  mask-image: linear-gradient(to bottom, transparent 0%, white 20%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, white 20%);
 }
+
+.description-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.description-content {
+  text-align: left;
+  padding: 2rem;
+  color: white;
+  font-size: 20px;
+  max-width: 800px;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
 
 .fade-in {
   opacity: 1;
+}
+
+.type-in {
+  animation: 
+  typing 1s steps(20, end) forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }

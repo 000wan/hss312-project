@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollHeight = window.pageYOffset;
-      if (scrollHeight > window.innerHeight * 0.8) {
+      if (scrollHeight > window.innerHeight * 0.5) {
         setShowDescriptionPage(true);
       } else {
         setShowDescriptionPage(false);

@@ -11,22 +11,34 @@
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, white 20%);
 }
 
+.description-name {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 100px;
+}
+
 .description-box {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 100%;
+  margin-top: 100px;
 }
 
 .description-content {
   text-align: left;
-  padding: 2rem;
+  /* padding: 2rem; */
   color: white;
   font-size: 20px;
-  max-width: 800px;
+  width: 550px;
+  margin: 0 0 0 50px;
   text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+.description-carousel {
+  width: 400px;
+  margin: 0 25px 0 50px;
+}
 
 .fade-in {
   opacity: 1;

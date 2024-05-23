@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import MainPage from "./MainPage";
 import DescriptionPage from "./DescriptionPage";
+import MusicPlayer from "./MusicPlayer";
 import "./App.css";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
 
   return (
     <div>
+      <MusicPlayer />
       <MainPage />
       <div style={{ height: "100px" }}></div>
       <DescriptionPage isVisible={showDescriptionPage} />

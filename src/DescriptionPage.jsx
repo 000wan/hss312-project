@@ -3,6 +3,7 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 import "./DescriptionPage.css";
 
+// eslint-disable-next-line react/prop-types
 const DescriptionPage = ({ isVisible }) => {
   return (
     <div className={`description-page ${isVisible ? "fade-in" : ""}`}>

@@ -66,6 +66,42 @@ const TimelinePage = () => {
         <h3>#사진 매체</h3>
         <YoutubeCarousel videos={images} />
       </ContentContainer>
+      <div style={{ height: "100px" }}></div>
+      <ImageContainer>
+        <Image src="/images/army.jpg" alt="9/11 Timeline" />
+      </ImageContainer>
+      <ShortContentContainer className="after-terror">
+        <Title>테러 그 이후</Title>
+        <DescriptionBox>
+          <Description>
+            &nbsp; 9/11 테러 직후 부시 행정부는 테러와의 전쟁을 선포하고 대테러
+            정책을 추진했습니다. 가장 먼저 2001년 10월 아프간에 대규모
+            군사작전을 개시해 알카에다 소탕과 탈레반 정권 축출에 나섰습니다.
+            이어 2003년에는 대량살상무기 보유 의혹 등을 이유로 이라크를
+            침공했습니다. 국내에서도 국토안보부를 신설하고 애국자법을 제정하는
+            등 테러 예방과 대응 역량을 강화했습니다.
+            <br />
+            &nbsp; 하지만 장기화된 아프간전과 이라크전은 많은 인명피해와
+            재정부담을 초래했습니다. 특히 이라크전의 정당성 문제와 인권침해
+            논란이 지속적으로 제기되었습니다. 이로 인해 중동 및 이슬람 국가들의
+            반미 정서가 높아지고 알카에다를 비롯한 이슬람 극단주의 세력이
+            확산되는 부작용도 있었습니다.
+          </Description>
+          <Description>
+            &nbsp; 한편 국제사회에서는 9/11 이후 반테러 협력과 정보공유의
+            중요성이 강조되었습니다. 미국을 중심으로 해외 정보활동과 군사협력이
+            크게 강화되었고, 유엔 테러방지위원회 등 국제기구 차원의 반테러
+            노력도 가속화되었습니다. 하지만 안보 대책으로 인한 개인 프라이버시,
+            인권 침해 우려도 제기되었습니다.
+            <br />
+            &nbsp; 결과적으로 9/11 테러는 국제질서에 큰 변화를 가져왔지만,
+            테러리즘 자체를 근절하기에는 한계가 있었습니다. 오히려 세계 일부
+            지역에서 테러 발생이 증가하는 등 새로운 안보 위협이 대두되기도
+            했습니다. 이 과정에서 국가안보와 시민 자유의 딜레마, 일방주의와
+            다자주의의 충돌 등 국제사회가 해결해야 할 숙제들이 남게 되었습니다.
+          </Description>
+        </DescriptionBox>
+      </ShortContentContainer>
     </Container>
   );
 };

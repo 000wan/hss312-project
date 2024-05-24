@@ -1,0 +1,33 @@
+.yt-carousel-box {
+  background-image: url("/images/wall_spotlights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  mask-image: linear-gradient(to bottom, transparent 0%, white 10%, white 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, white 10%, white 90%, transparent 100%);
+
+  text-align: center;
+  color: white !important;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.yt-box {
+  padding: 0 80px;
+  display: flex;
+  text-align: left;
+}
+
+.yt-title {
+  width: 50%;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.yt-description {
+  width: 50%;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}

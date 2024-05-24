@@ -39,7 +39,9 @@ function MainPage() {
                 {evenNames[index]}
               </TextTransition>
               <div
-                className={"memorial-name-list " + (listOpen ? "fade-in" : "")}
+                className={
+                  "memorial-name-list " + (listOpen ? "list-fade-in" : "")
+                }
               >
                 {evenNames.map((name, index) => (
                   <div key={index}>{name}</div>
@@ -58,7 +60,9 @@ function MainPage() {
                 {oddNames[oddIndex]}
               </TextTransition>
               <div
-                className={"memorial-name-list " + (listOpen ? "fade-in" : "")}
+                className={
+                  "memorial-name-list " + (listOpen ? "list-fade-in" : "")
+                }
               >
                 {oddNames.map((name, index) => (
                   <div key={index}>{name}</div>

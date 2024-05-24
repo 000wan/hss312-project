@@ -4,6 +4,7 @@ import MainPage from "./MainPage";
 import DescriptionPage from "./DescriptionPage";
 import MusicPlayer from "./MusicPlayer";
 import "./App.css";
+import TimelinePage from "./TimelinePage";
 
 const App = () => {
   const [showDescriptionPage, setShowDescriptionPage] = useState(false);
@@ -28,7 +29,8 @@ const App = () => {
       <MainPage />
       <div style={{ height: "100px" }}></div>
       <DescriptionPage isVisible={showDescriptionPage} />
-      <div style={{ height: "200vh" }}></div>
+      <div style={{ height: "100vh" }}></div>
+      <TimelinePage />
     </div>
   );
 };
